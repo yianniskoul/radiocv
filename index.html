@@ -1,0 +1,161 @@
+<style>
+    body {
+        font-family: 'Arial', sans-serif;
+        background-color: #f4f7fc;
+        color: #333;
+        margin: 0;
+        padding: 0;
+    }
+
+    .section {
+        background-color: #fff;
+        margin: 20px auto;
+        padding: 20px;
+        width: 90%;
+        max-width: 900px;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .section:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+    }
+
+    h2 {
+        color: #2c3e50;
+        font-size: 1.8em;
+        margin-bottom: 10px;
+        border-bottom: 2px solid #ecf0f1;
+        padding-bottom: 10px;
+    }
+
+    h3 {
+        color: #34495e;
+        font-size: 1.3em;
+        margin-bottom: 10px;
+    }
+
+    p, ul {
+        font-size: 1.1em;
+        line-height: 1.6;
+        color: #7f8c8d;
+    }
+
+    .highlight {
+        font-weight: bold;
+        color: #16a085;
+    }
+
+    ul {
+        list-style-type: none;
+        padding-left: 0;
+    }
+
+    ul li {
+        padding-left: 20px;
+        position: relative;
+    }
+
+    ul li:before {
+        content: '•';
+        color: #16a085;
+        position: absolute;
+        left: 0;
+    }
+
+    em {
+        color: #95a5a6;
+        font-style: italic;
+    }
+
+    strong {
+        color: #e74c3c;
+    }
+
+    @media (max-width: 768px) {
+        .section {
+            width: 95%;
+        }
+
+        h2 {
+            font-size: 1.6em;
+        }
+
+        h3 {
+            font-size: 1.2em;
+        }
+
+        p, ul {
+            font-size: 1em;
+        }
+    }
+</style>
+
+<div class="section">
+    <h2>Προσωπικά Στοιχεία</h2>
+    <p><span class="highlight">Ονοματεπώνυμο:</span> Κουλιζάκης Γιάννης</p>
+    <p><span class="highlight">Τηλέφωνο:</span> 6981046039</p>
+    <p><span class="highlight">Email:</span> yianniskoul@gmail.com</p>
+</div>
+
+<div class="section">
+    <h2>Επαγγελματική Εμπειρία</h2>
+    <h3>Προγραμματιστής Web Εφαρμογών</h3>
+    <ul>
+        <li>Ανάπτυξη και συντήρηση web εφαρμογών μεγάλης κλίμακας</li>
+        <li>Συμμετοχή σε έργα όπως αυτά του ΟΠΑΠ</li>
+        <li>Εξειδίκευση σε τεχνολογίες [π.χ. JavaScript, TypeScript, NestJS, React, Node.js]</li>
+        <li>Ανάπτυξη backend & frontend εφαρμογών με έμφαση στην απόδοση και την ασφάλεια</li>
+    </ul>
+</div>
+
+<div class="section">
+    <h2>Ραδιοφωνική Εμπειρία</h2>
+    <p><em>Από το 2013 έως σήμερα δεν είχα την ευκαιρία να ασχοληθώ με το ραδιόφωνο λόγω επαγγελματικών υποχρεώσεων και συνεχών μετακινήσεων.</em></p>
+    <ul>
+        <li><span class="highlight">Plus FM 89.4, Σάμος (2005 - 2012):</span> Διαχείριση ροής προγράμματος, παρουσίαση εκπομπών, τεχνική υποστήριξη</li>
+        <li><span class="highlight">Rock FM 93.5, Σάμος (2005 - 2012):</span> Παρουσίαση εκπομπών, μουσικός προγραμματισμός</li>
+        <li><span class="highlight">Radio Deejay 98.2, Πάτρα (2005 - 2012):</span> Δημιουργία & επεξεργασία ηχογραφημένων εκπομπών</li>
+        <li><span class="highlight">Πειραϊκή Εκκλησία & Εκκλησία της Ελλάδος (2005 - 2012):</span> Συντήρηση πομπών και κεραιών</li>
+        <li><span class="highlight">Χώρος 94.2, Σάμος (2005 - 2012):</span> Διαχείριση κέντρου εκπομπής, ροή προγράμματος</li>
+        <li><span class="highlight">Web Radio:</span> Δημιουργία και διαχείριση "Ράδιο Αλήτης" (λαϊκά τραγούδια) και "Radio Pulse" (ελληνοξένες νέες κυκλοφορίες)</li>
+    </ul>
+</div>
+
+<div class="section">
+    <h2>Εκπαίδευση</h2>
+    <p><span class="highlight">Πολυτεχνική Σχολή, Πανεπιστήμιο Αιγαίου</span></p>
+    <ul>
+        <li>Πτυχίο Ηλεκτρονικού Μηχανικού (2005-2013)</li>
+        <li>Μεταπτυχιακό στα Πληροφοριακά Συστήματα</li>
+    </ul>
+</div>
+
+<div class="section">
+    <h2>Δεξιότητες</h2>
+    <ul>
+        <li>Ανάπτυξη web εφαρμογών</li>
+        <li>Backend & frontend development</li>
+        <li>Βελτιστοποίηση επιδόσεων & ασφάλεια</li>
+        <li>Ραδιοφωνική παραγωγή & ηχοληψία</li>
+        <li>Τεχνική υποστήριξη στούντιο & εξοπλισμού εκπομπής</li>
+        <li>Συντήρηση πομπών και κεραιών</li>
+    </ul>
+</div>
+
+<div class="section">
+    <h2>Γλώσσες</h2>
+    <ul>
+        <li>Ελληνικά – Μητρική</li>
+        <li>Αγγλικά – [Επίπεδο π.χ. B2, C1]</li>
+    </ul>
+</div>
+
+<div class="section">
+    <h2>Επιπλέον Πληροφορίες</h2>
+    <p>Εμπειρία σε ερασιτεχνικό ραδιοφωνικό σταθμό από το 1996-2005.</p>
+    <p>Ικανότητα εργασίας υπό πίεση σε ζωντανές εκπομπές.</p>
+    <p><strong>Αναζητώ ευκαιρίες για να ασχοληθώ ξανά με το ραδιόφωνο, όχι για οικονομικό όφελος, αλλά από αγάπη για τον χώρο.</strong></p>
+</div>
